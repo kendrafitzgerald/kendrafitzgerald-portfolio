@@ -1,9 +1,16 @@
 import React from "react";
-
+import '../styles/header.css'
+const styles = {
+    name: {
+        marginTop: '10px',
+        fontSize: '50px',
+        color: '#38598b'
+    }
+}
 export default function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <div className="header">
-      <h1>Kendra Fitzgerald</h1>
+    <div className="header" id='headerImage'>
+      <h1 style={styles.name}>Kendra Fitzgerald</h1>
       <p>FullStack Developer</p>
       <nav className="navbar justify-content-end">
         <ul className="nav nav-tabs">
@@ -53,6 +60,6 @@ export default function NavTabs({ currentPage, handlePageChange }) {
           </li>
         </ul>
       </nav>
-    </div>
+      </div>
   );
 };
