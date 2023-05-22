@@ -10,9 +10,11 @@ const styles = {
   },
   header: {
     color: "white",
+    fontFamily: 'Rockwell, Courier Bold, Courier'
   },
   text: {
     color: "white",
+    fontFamily: 'Rockwell, Courier Bold, Courier'
   },
   profilePic: {
     borderRadius: '50%',

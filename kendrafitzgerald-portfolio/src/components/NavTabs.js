@@ -4,10 +4,14 @@ const styles = {
         marginTop: '10px',
         fontSize: '50px',
         color: 'white',
-        paddingTop: 85
+        paddingTop: 85,
+        fontFamily: 'Rockwell, Courier Bold, Courier'
     },
     subtitle: {
-        color: 'white'
+        color: 'white',
+        fontSize: '20px',
+        fontFamily: 'Rockwell, Courier Bold, Courier',
+        fontStyle: 'italic'
     }
 }
 export default function NavTabs({ currentPage, handlePageChange }) {

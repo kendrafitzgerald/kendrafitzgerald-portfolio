@@ -9,7 +9,7 @@ import React from 'react';
 //         </div>
 //     );
 // };
-import {Document, Page} from '@react-pdf/renderer';
+import {Document, Page} from 'react-pdf';
 import resumePDF from '../../utils/resume2.pdf';
 const styles = {
     body: {
@@ -21,6 +21,7 @@ const styles = {
     },
     header: {
       color: "white",
+      fontFamily: 'Rockwell, Courier Bold, Courier'
     }
     // },
     // text: {

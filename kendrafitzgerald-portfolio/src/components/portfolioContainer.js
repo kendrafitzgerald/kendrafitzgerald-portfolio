@@ -5,7 +5,15 @@ import Portfolio from './pages/portfolio';
 import Contact from './pages/contact';
 import Resume from './pages/resume';
 import '../styles/header.css'
-
+// const styles={
+//     subtitle: {
+//         color: 'white',
+//         fontSize: '20px',
+//         fontFamily: 'Rockwell, Courier Bold, Courier',
+//         fontStyle: 'italic',
+//         marginTop: 'auto'
+//     }
+// }
 function PortfolioContainer() {
     const [currentPage, setCurrentPage] = useState('AboutMe');
 
@@ -26,6 +34,7 @@ function PortfolioContainer() {
         <div id='headerImage'>
             <NavTabs currentPage = {currentPage} handlePageChange={handlePageChange}/>
             {renderPage()}
+            {/* <footer style={styles.subtitle}>hello</footer> */}
         </div>
     );
 }

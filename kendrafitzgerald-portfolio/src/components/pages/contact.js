@@ -11,13 +11,16 @@ const styles = {
   },
   header: {
     color: "white",
+    fontFamily: 'Rockwell, Courier Bold, Courier'
   },
   text: {
     color: "white",
+    fontFamily: 'Rockwell, Courier Bold, Courier'
   },
   label: {
     color: "white",
     fontSize: 25,
+    fontFamily: 'Rockwell, Courier Bold, Courier'
   },
   messageBody: {
     height: 100,
