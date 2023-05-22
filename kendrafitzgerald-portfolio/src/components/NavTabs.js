@@ -1,17 +1,20 @@
 import React from "react";
-import '../styles/header.css'
 const styles = {
     name: {
         marginTop: '10px',
         fontSize: '50px',
-        color: '#38598b'
+        color: 'white',
+        paddingTop: 85
+    },
+    subtitle: {
+        color: 'white'
     }
 }
 export default function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <div className="header" id='headerImage'>
+    <div className="header">
       <h1 style={styles.name}>Kendra Fitzgerald</h1>
-      <p>FullStack Developer</p>
+      <p style={styles.subtitle}>FullStack Developer</p>
       <nav className="navbar justify-content-end">
         <ul className="nav nav-tabs">
           <li className="nav-item">
