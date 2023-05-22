@@ -3,9 +3,10 @@ import ProfilePic from '../../images/profile-pic-professional.png'
 const styles = {
   body: {
     background: "#000018",
-    height: 500,
-    width: 750,
-    marginLeft: 350,
+    height: 525,
+    width: 800,
+    marginLeft: 'auto',
+    marginRight: 'auto'
   },
   header: {
     color: "white",
